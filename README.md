@@ -1,32 +1,21 @@
 
-# Project:Crosswalk detection 
+## Crosswalk detection 
 A project to detect crosswalk for impaired people 
 
-# Team members:
-Pragati
-Stephan
-Soukaina
-
-# Project Summary:
-Mission:Create a deep learning model to detect crosswalk for impaired people
-
-# Objectives:
+### Description  
+Create a deep learning model to detect crosswalk for impaired people  
 be able to preprocess data for deep learning
 be able to train apply and evaluate Yolov4 model with real world data
 
-# Datast:
-Dataset from google can be found which consists of 2 zip files all_images folder contains 35000 images  for the training and csv file all_annotations.csv contains the dataset for the preprocessing 
+### Installation
+In order to run the program, install the libraries in the using this command `pip install requirements.txt`.   
 
- # files in this repo:
+ ### files in this repo:
  
  
- # Workflow for this project:
- # Libraries used:
- Tensorflow
- pandas
- numpy
- opencv
- # Step1: installation
+ ### Project Workflow
+
+ ### Step1: installation
  How to Use YOLO
 I) Clone the Repository
 git clone https://github.com/pjreddie/darknet
