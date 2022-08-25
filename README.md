@@ -12,7 +12,7 @@ Build an application that help impaired people to detect the crosswalk
 4. The `templates` folder contains all the html pages used in the application.
 5. `app.py` is the main python program that runs the application.
 
-## Run Locally  
+### Run Locally  
 1. Clone the project  `git clone git@github.com:StefanMihut/Crosswalk-Detection.git`
 2. Go to the project directory  `cd Crosswalk-Detection`
 3. Install dependencies   `pip install - r requirements.txt`
