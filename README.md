@@ -7,6 +7,64 @@ Create a deep learning model to detect crosswalk for impaired people
 be able to preprocess data for deep learning
 be able to train apply and evaluate Yolov4 model with real world data
 
+
+
+## Run Locally  
+
+Clone the project  
+
+```bash  
+  git clone git@github.com:StefanMihut/Crosswalk-Detection.git  
+```  
+
+Go to the project directory  
+
+```bash  
+  cd Crosswalk-Detection  
+```  
+
+Install dependencies   
+
+```bash
+  pip install - r Requirements.txt  
+```
+
+
+Download The Weights Model Trained with 10.000 Crosswalk Pictures.    
+
+[Weights 10.000 Trained](https://wetransfer.com/downloads/ef34c320e818294aedd6a5682c831f3920220825075438/8f718f)  
+and saved it in the yolo-files project folder.  
+
+Run the Model Localy  
+
+```bash
+  python app.py  
+```
+
+The application will run Locally where you can choose the image pictures to predict  
+
+Browse the image for Detection  
+
+![Browser](https://i.imgur.com/rEnlMcY.png")  
+
+
+![Browser2](https://i.imgur.com/zfVhRxw.png)  
+
+We advise to place the photos in Project folder and run them from there.    
+
+```bash
+  static > images  
+```
+![Browser3](https://i.imgur.com/ESexIzl.png)  
+
+
+
+
+
+
+
+
+
 ### Installation
 In order to run the program, install the libraries in the using this command `pip install requirements.txt`.   
 
