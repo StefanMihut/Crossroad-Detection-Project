@@ -11,7 +11,12 @@ be able to train apply and evaluate Yolov4 model with real world data
 In order to run the program, install the libraries in the using this command `pip install requirements.txt`.   
 
  ### files in this repo:
- 
+ ### Usage
+1. generate_annotation.ipynb file is used to create the label for each of the images according to the yolo format.
+2. The static\images folder contains the images that are used for testing.
+3. The yolo-files folder contains files required to train the and test the model
+4. The templates folder contains all the html pages used in the application.
+5. app.py is the main python program that runs the application.
  
  ### Project Workflow
 
