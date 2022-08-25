@@ -2,8 +2,7 @@
 ## Crosswalk detection 
 
 ### Description  
-Create a deep learning model that detect crosswalk
-Build an application that help impaired people to detect the crosswalk 
+Object detection is one of the fundamental problems in the field of artificial intelligence. It has lots of applications in robotics, automation, and human-computer interaction. The aim of the project is to identify a crosswalk object by localizing it inside bounding boxes. We used the yolov3 pretained object detection model and customised it to detect the crosswalk. 
 
 ### Usage
 1. `generate_annotation.ipynb` file is used to create the label for each of the images according to the yolo format.
@@ -11,6 +10,7 @@ Build an application that help impaired people to detect the crosswalk
 3. The `yolo-files` folder contains files required to train the and test the model
 4. The `templates` folder contains all the html pages used in the application.
 5. `app.py` is the main python program that runs the application.
+6. `training_yolov3.ipynb` is the file used to train the model in the google colab.
 
 ### Run Locally  
 1. Clone the project  `git clone git@github.com:StefanMihut/Crosswalk-Detection.git`
@@ -30,7 +30,7 @@ We advice to place the photos beforehand in ` static\images` folder.
  
  ### Project Workflow
  
- ### Training the model in the google collab  
+ ### Training the model in the google colab  
 1. Use the `generate_annotation.ipynb` file to create the labels for the images. Zip the folder
 and upload in in the google drive
 2. Unzip the folder with images in the google drive
