@@ -58,13 +58,6 @@ We advise to place the photos in Project folder and run them from there.
 ![Browser3](https://i.imgur.com/ESexIzl.png)  
 
 
-
-
-
-
-
-
-
 ### Installation
 In order to run the program, install the libraries in the using this command `pip install requirements.txt`.   
 
@@ -77,6 +70,23 @@ In order to run the program, install the libraries in the using this command `pi
 5. app.py is the main python program that runs the application.
  
  ### Project Workflow
+ 
+ ### Training the model in the google collab  
+1. Use the `generate_annotation.ipynb` file to create the labels for the images. Zip the folder
+and upload in in the google drive
+2. Unzip the folder with images in the google drive
+5. Upload both  `classes.txt` , `classes.names`,`create_files.py` and `create_train_test.py` from this repo to the image folder in the drive
+6. Open the `create_files.py` and `create_train_test.py` files in the image folder, change the path to the image and run it.
+7. Create a new folder `darknet` and clone the darknet repo using `!git clone https://github.com/AlexeyAB/darknet` in the correct folder.
+8. In order to use GPU, open the `Makefile` in the darknet folder and change the value of `OPENCV`, `GPU` and `CUDNN` to `1`.
+9. build the darknet using `make` command
+10. Create a new folder `custom_weight` and download the pretained model from `http://pjreddie.com/media/files/darknet53.conv.74` and upload in this directory.
+11. Upload the `custom_yolov3_100000.cfg` config file from this repo in the `darknet/cfg`.
+12. Open the `custom_yolov3_100000.cfg` config file and comment the `batch` and subdivisions` under `Testing`
+and uncomment those two in the `Training` sections.
+13. Create a `backup` folder in the drive. This folder will contain the trained models.
+14. Train the model using the command `darknet/darknet detector train training_10000_images/labelled_data.data darknet/cfg/custom_yolov3.cfg custom_weight/darknet53.conv.74 -dont_show -map`.
+Make sure that the folder names are correct.
 
  ### Step1: installation
  How to Use YOLO
