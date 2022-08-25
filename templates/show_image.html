@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/staticFiles/main.css' />
+  </head>
+  <body>
+    <pre>
+    <h2 style="display: inline-block">Original Image</h2>                                                     <h2 style="display: inline-block"> Resulting Image</h2> 
+    </pre>
+    {% for i in imagelist %}
+    <img src = "{{ i }}" alt="object detection" width="500" height="400">
+    {% endfor %}
+    </body>
+</html>
+
