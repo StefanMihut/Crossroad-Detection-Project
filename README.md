@@ -28,9 +28,18 @@ We advice to place the photos beforehand in ` static\images` folder.
 ![Browser3](https://i.imgur.com/ESexIzl.png)  
 
  
- ### Project Workflow
- 
- ### Training the model in the google colab  
+ ### Project 
+1. Understand and analyse the image data with the annotation file 
+2. Select the pretrained model (yolov3)
+3. Label the images according to the yolo requirement.
+4. Make the custom config file to detect the `zebra_cross` class.
+5. Train the model with subset of images.
+6. Test the model for crosswalk detection and check the performance of the model using the `mAP`.
+7. Repeat `step 5` and `6` increasing the number of images.
+7. Convert the model to a CoreML version to use in the iOS.
+8. Create a flask app to test the model locally without the darknet framework.
+
+### Training the model in the google colab  
 1. Use the `generate_annotation.ipynb` file to create the labels for the images. Zip the folder
 and upload in in the google drive
 2. Unzip the folder with images in the google drive
