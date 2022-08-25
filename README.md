@@ -50,7 +50,7 @@ and upload in in the google drive
 9. build the darknet using `make` command
 10. Create a new folder `custom_weight` and download the pretained model from `http://pjreddie.com/media/files/darknet53.conv.74` and upload in this directory.
 11. Upload the `custom_yolov3_100000.cfg` config file from this repo in the `darknet/cfg`.
-12. Open the `custom_yolov3_100000.cfg` config file and comment the `batch` and subdivisions` under `Testing`
+12. Open the `custom_yolov3_100000.cfg` config file and comment the `batch` and `subdivisions` under `Testing`
 and uncomment those two in the `Training` sections.
 13. Create a `backup` folder in the drive. This folder will contain the trained models.
 14. Train the model using the command `darknet/darknet detector train training_10000_images/labelled_data.data darknet/cfg/custom_yolov3.cfg custom_weight/darknet53.conv.74 -dont_show -map`. Make sure that the folder names are correct.
