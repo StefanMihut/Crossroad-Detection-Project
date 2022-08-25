@@ -1,5 +1,4 @@
-# Crosswalk-Detection-Project
-# Crosswalk-Detection-Project
+
 # Project:Crosswalk detection 
 A project to detect crosswalk for impaired people 
 
