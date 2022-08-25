@@ -16,9 +16,7 @@ Build an application that help impaired people to detect the crosswalk
 1. Clone the project  `git clone git@github.com:StefanMihut/Crosswalk-Detection.git`
 2. Go to the project directory  `cd Crosswalk-Detection`
 3. Install dependencies   `pip install - r requirements.txt`
-4. Download trained model with 10.000 Crosswalk pictures.    
-[Weights 10.000 Trained](https://wetransfer.com/downloads/ef34c320e818294aedd6a5682c831f3920220825075438/8f718f)  
-and save it in the yolo-files project folder.  
+4. Download trained model with 10.000 Crosswalk pictures.  [Weights 10.000 Trained](https://wetransfer.com/downloads/ef34c320e818294aedd6a5682c831f3920220825075438/8f718f)  and save it in the yolo-files folder.  
 5. Run the Model locally `python app.py`.  Click on the link that appears in the command line which will open up in the browser.  
 6. Browse the image for testing the detection 
 ![Browser](https://i.imgur.com/rEnlMcY.png")  
