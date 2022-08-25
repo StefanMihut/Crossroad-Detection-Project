@@ -3,10 +3,8 @@
 A project to detect crosswalk for impaired people 
 
 ### Description  
-Create a deep learning model to detect crosswalk for impaired people  
-be able to preprocess data for deep learning
-be able to train apply and evaluate Yolov4 model with real world data
-
+Create a deep learning model that detect crosswalk
+Build an application that help impaired people to detect the crosswalk 
 
 
 ## Run Locally  
