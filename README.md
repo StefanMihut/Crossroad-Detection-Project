@@ -55,3 +55,7 @@ and uncomment those two in the `Training` sections.
 13. Create a `backup` folder in the drive. This folder will contain the trained models.
 14. Train the model using the command `darknet/darknet detector train training_10000_images/labelled_data.data darknet/cfg/custom_yolov3.cfg custom_weight/darknet53.conv.74 -dont_show -map`. Make sure that the folder names are correct.
 
+## Authors 
+* [Pragati Khadka](https://github.com/PragatiKhadka)
+* [Stefan Mihut](https://github.com/StefanMihut)
+* [Soukaina ait Hammou](https://github.com/soukiait)
